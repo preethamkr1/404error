@@ -32,35 +32,6 @@ When you print an Aadhaar card or a Bank Statement at a local shop, where does t
 | Security | Encryption & PDF decryption | crypto, muhammara |
 | Hardware | Direct Printer Handoff | pdf-to-printer |
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v16+)
-- npm or yarn
-- A printer configured on your host machine (for backend printing)
-
-### Setup
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/akashknai04/safeprint04.git
-   cd safeprint04
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   # Install root (Frontend) dependencies
-   npm install
-
-   # Install Backend dependencies
-   cd api && npm install
-   ```
-
-3. **Run Dev Environment**:
-   ```bash
-   # From the root directory
-   npm run dev
-   ```
-
 ## 🛡️ Security Highlights
 - **Memory Buffering**: We minimize disk-resident time by processing files as buffers.
 - **Entropy Codes**: Randomly generated high-entropy codes that expire after a single use.
